@@ -1,0 +1,32 @@
+html {
+    width: 1200px;
+    margin: auto;
+}
+
+h4 {
+    background-color: cadetblue;
+    font-size: xx-large;
+    color: chocolate;
+    position: relative;
+    height: 5ex;
+}
+
+h3 {
+    background-color: darkcyan;
+    color: cyan;
+    font-size: large;
+}
+
+strong, a {
+    color: darkgoldenrod;
+}
+
+#image {
+    background-image: url(../../foto/profielfoto.jpg);
+    width: 300px;
+    height: 300px;
+}
+
+li {
+    -webkit-margin-collapse: collapse;
+}
