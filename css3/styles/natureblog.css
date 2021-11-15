@@ -1,0 +1,36 @@
+section {
+    width: 1200px;
+    margin: auto;
+}
+nav a{
+    color: chartreuse;
+    font-family: "Arial Rounded MT Bold";
+}
+
+nav {
+    background-color: #333333;
+    height: 1.5em;
+}
+
+
+#header-image-menu {
+    background-image: url(../../foto/header.jpg);
+    height: 150px;
+}
+
+#image-text {
+    position: relative;
+    font-family: "Arial Rounded MT Bold";
+    color: white;
+    font-size: xxx-large;
+    text-align: left;
+}
+
+h1 {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+article {
+    background-color: lightgrey;
+}
