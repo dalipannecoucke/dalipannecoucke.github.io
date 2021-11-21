@@ -1,0 +1,36 @@
+html {
+    width: 95%;
+    margin: auto;
+}
+
+section {
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+}
+
+article#sidebar {
+    float: right;
+    width: 30%;
+    border: 2px cadetblue;
+}
+
+h1 {
+    font-family: Verdana;
+    color: darkcyan;
+}
+
+guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px white dotted;
+}
+
+h2 {
+    font-family: Verdana;
+    color: darkred;
+}
+
