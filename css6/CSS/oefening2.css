@@ -1,0 +1,15 @@
+div[class *= "col"]
+{
+    height: 200px;
+    box-sizing: border-box;
+    border : 10px solid white;
+}
+.myGray
+{
+    background-color: lightgray;
+
+}
+.myLightGray
+{
+    background-color: darkgray;
+}

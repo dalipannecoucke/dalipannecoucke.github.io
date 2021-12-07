@@ -1,0 +1,32 @@
+header{
+    background-color: cadetblue;
+    height: 150px;
+    text-align: center;
+
+}
+header h1
+{
+    font-size: 3em;
+    font-family: Verdana;
+    font-weight: bold;
+    color: orangered;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#images .picture
+{
+    padding: 0;
+}
+img
+{
+    height: 85%;
+    width: 45%;
+    padding: 10px;
+}
+
+
