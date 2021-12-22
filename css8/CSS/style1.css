@@ -1,0 +1,154 @@
+@media screen and (max-width: 786px) {
+    .caption {
+
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .grid{
+        display: grid;
+        padding: 10px;
+
+    }
+    .grid .block
+    {
+        padding: 20px;
+        margin: 10px ;
+        font-size: 30px;
+        text-align: center;
+    }
+    .gridHeader {
+        background-color: mediumpurple;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        text-align: center;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .gridNav {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        text-align: center;
+        background-color: rebeccapurple;
+        height: 100px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gridMain
+    {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        text-align: center;
+        background-color: lightgoldenrodyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gridAside
+    {
+        grid-column: 1/4;
+        grid-row:4/5 ;
+        text-align: center;
+        background-color: lightgreen ;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    footer
+    {
+        grid-column: 1/4;
+        grid-row:5/6 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        background-color: lightpink;
+
+    }
+}
+@media screen and (min-width: 787px) {
+    .caption {
+
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 5% 10% 70% 10% 5%;
+
+    }
+
+    .gridHeader {
+        background-color: mediumpurple;
+        grid-column: 1/6;
+        grid-row: 1/2;
+        text-align: center;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .gridNav {
+
+        text-align: center;
+        background-color: rebeccapurple;
+        grid-column: 2/3;
+        grid-row: 2/4;
+
+    }
+
+    .gridMain
+    {
+        grid-column: 3/4;
+        grid-row: 2/4;
+        text-align: center;
+        background-color: lightgoldenrodyellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 10%;
+    }
+    .gridAside
+    {
+        grid-column: 4/5;
+        grid-row: 2/4;
+        text-align: center;
+        background-color: lightgreen ;
+
+
+
+    }
+    footer
+    {
+        grid-column: 1/6;
+        grid-row: 4/5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        background-color: lightpink;
+
+    }
+}

@@ -1,0 +1,241 @@
+/** Volgende CSS gaan we ze geven **/
+
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+html, body {
+    margin: 0;
+    font-family: helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: black 2px solid;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    font-size: 150%;
+}
+
+.header div img {
+    height: 50px;
+
+
+}
+
+.header div{
+    text-align: left;
+    width: 980px;
+    margin: auto;
+
+}
+
+hr {
+    border-color: #ebe8e8;
+    border-width: 1px;
+    margin: 0;
+}
+
+.grid-nav {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 980px;
+    margin: auto;
+
+    text-align: center;
+}
+
+.block a {
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #5b4746;
+
+}
+
+.block a:hover {
+    text-decoration: underline 2px #fff100;
+}
+
+.block {
+    border-right: 1px #ebe8e8 solid;
+}
+
+.block:last-child {
+    border-right: 1px #ebe8e8 hidden;
+}
+
+
+main header {
+    background-image: url("/headerimage.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main header div {
+
+    color: white;
+    font-size: 40px;
+    text-shadow: #8D99AE 2px 2px;
+}
+
+.recipes {
+    margin: 50px auto auto auto;
+    width: 980px;
+}
+
+.container-artikels {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns:auto auto;
+    gap: 15px;
+}
+
+.container-artikels article:nth-child(2n-1) {
+
+    border-top: 1px #ddd solid;
+}
+
+.container-artikels article:nth-child(2n-1) p:first-child {
+
+    font-size: 1.2em;
+    color: #ff4d56;
+    text-space: 1px;
+}
+
+.container-artikels article:nth-child(2n-1) p:nth-child(3) {
+
+    color: #666;
+    line-height: 2;
+}
+
+.auteur {
+    border-right: solid 1px #ebe8e8;;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.datum {
+    padding-left: 10px;
+    color: #666;
+}
+
+.container-artikels a {
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.fotos  {
+    margin: 50px auto auto auto;
+width: 980px;
+
+}
+.fotos .row div{
+
+margin-bottom: 25px;
+
+}
+.fotos .row img {
+
+}
+
+footer {
+
+    border-top: 1px #ebe8e8 solid;
+    line-height: 2em;
+}
+
+#left {
+width: 50%;
+    float: left;
+    text-align: right;
+
+}
+
+
+#right {
+
+    width: 50%;
+    float: left;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding: 0!important;
+}
+
+
+footer p {
+    margin: 5px 20px 5px 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .header div {
+        width: 750px;
+    }
+
+    .grid-nav {
+        width: 750px;
+    }
+
+    .recipes {
+        width: 750px;
+    }
+
+    .fotos{
+
+        width: 750px;
+
+    }
+
+}
+
+
+@media screen and  (max-width: 770px) {
+
+    .header div {
+        width: 600px;
+    }
+
+    .grid-nav {
+        width: 600px;
+    }
+
+    .recipes {
+        width: 600px;
+    }
+
+    .fotos {
+
+        width: 600px;
+
+    }
+
+
+}
