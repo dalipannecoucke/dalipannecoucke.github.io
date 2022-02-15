@@ -1,0 +1,12 @@
+.container{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: auto auto auto auto; /*4 kolommen*/
+    grid-template-rows: auto auto auto auto; /*4 rijen*/
+}
+
+.container .block{
+    margin:50px;
+    padding:50px;
+    background-color: white;
+}

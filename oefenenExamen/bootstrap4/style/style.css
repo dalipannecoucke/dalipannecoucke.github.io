@@ -1,0 +1,32 @@
+.bg {
+    background-color: gray;
+    height: 30vh;
+    float: left;
+    border-left:10px solid white;
+}
+
+.row {
+    margin-bottom: 10px;
+
+}
+
+/*PHONE*/
+@media only screen and (max-width: 768px){
+    .bg {
+        width: 100%;
+    }
+}
+
+/*TABLET*/
+@media only screen and (min-width: 768px){
+    .bg {
+        width: 47%;
+    }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 992px){
+    .bg {
+        width: 23%;
+    }
+}

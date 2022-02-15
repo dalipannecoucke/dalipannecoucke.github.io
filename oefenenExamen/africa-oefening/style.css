@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*--elementen--*/
+body {
+    background-image: url("img/stripverloopokapi.jpg");
+    background-size: auto;
+    background-repeat: repeat-x;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    background-image: url("img/headerokapi.jpg");
+    background-repeat: no-repeat;
+    padding: 10px 0;
+    height: 180px;
+    text-align: center; /*afbeelding in midden*/
+}
+
+nav {
+    display: block; /*doos ter breedte van parent element*/
+    text-align: center; /*knoppen in midden naas elkaar*/
+}
+
+nav a {
+    display: inline-block; /*doosjes die op één lijn staan*/
+    color: black;
+    text-decoration: none;
+    padding: 20px 37px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    box-sizing:border-box; /*omdat specifieke breedtes heeft, om mooi naast elkaar*/
+    float: left; /*links*/
+    padding: 10px 0 0 10px; /*whitespace*/
+    width: 598px; /*uitrekenen door breedte header minus breedte linkerkolom*/
+}
+
+article {
+    line-height: 107%; /*ruimte tussen lijnen tekst = regelafstand*/
+}
+
+article h1 {
+    margin: 15px 0; /*hoogte breedte*/
+    font-size: 1.15em; /*beetje groter dan tekst en
+    h2 en h3 kun je niet gebruiken als je geen h1 hebt
+    dus handmatig grootte meegeven, 1em is standaardtekst grootte*/
+}
+
+article p {
+    font-size: 0.98em; /*kan je zien aan waar de lijnen eindigen*/
+}
+
+article img {
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 25px 0; /*vanboven rechts vanonder links*/
+}
+
+span {  /*kan ook in een klasse gezet worden*/
+    display: block;
+    border: 1px solid black;
+    margin: 15px 0 0 0; /*zoeken tot op juiste positie*/
+    /*proberen vanaf 10 10 10 10 en vanaf daar verderzoeken*/
+    padding: 10px; /*ook zoeken*/
+    font-size: 1.25em;
+    font-style: italic; /*cursief*/
+    font-weight: bold; /*vetgedrukt*/
+}
+
+
+
+aside {
+    box-sizing: border-box;
+    float: right;
+    padding: 0 10px;
+    width: 372px; /*afbeelding
+                    + 2px voor 1px-rand die je zowel links als rechts hebt
+                    + 20px omdat links en rechts 10px aan whitespace*/
+}
+
+aside img {
+    display: block;
+    border: 1px solid black; /*1px komt tweemaal voor*/
+    margin: 10px auto; /*auto om netjes in de midden te plaatsen*/
+}
+
+footer {
+    border-top: 5px solid black;
+    box-sizing: border-box;
+    padding: 10px 25px; /*zorgt dat tekst op juist plaats komt*/
+    height: 78px; /*hoogte header - content = hoogte footer*/
+    width: 100%;
+    text-align: right;
+    font-size: 0.9em;
+}
+
+/*--classes--*/
+ .wrapper {
+     border: 1px solid black;
+     background-color: #eee9dd;
+     margin: 0 auto;
+     margin-bottom: 1px;
+     width: 970px;
+ }
+
+
+/*--ID--*/
+
+
+/*--CLEARFIX--*/
+    /*klasse die kan je geven aan bepaalde div of box element om collapsing van je elementen te voorkomen wanneer je werkt met afbeeldingen*/
+    /*deze bevat afbeelding en hoogte moet hebben van afbeelding derbinnenin*/
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

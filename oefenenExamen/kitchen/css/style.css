@@ -1,0 +1,296 @@
+/*--alle fotos--*/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+*
+{
+
+    font-family: Helvetica, sans-serif;
+}
+
+/*--header&logo--*/
+header
+{
+    align-items: center; /*horizontaal gecentreerd*/
+    margin: auto;
+}
+
+header img
+{
+    height: 50px;
+}
+
+.border
+{
+    border-bottom: #ebe8e8 solid 1px;
+    width: 100%;
+}
+/*-------------------------------------*/
+
+/*--navigatie--*/
+.snelmenu {
+    display: grid;/*block-level grid container*/
+    grid-template-columns: auto auto auto auto auto auto auto; /*7 gelijke delen*/
+    margin: auto;
+    text-transform: uppercase;
+
+}
+
+.snelmenu span
+{
+    display: block; /*starts on new line and takes up whole width*/
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right:#ebe8e8 solid 2px;
+    text-align: center;
+
+}
+.snelmenu span a:hover{
+    text-decoration: underline 2px solid #fff100;
+}
+
+span:last-child
+{
+    border-right: 0;
+}
+
+a{
+    color: #5b4746;
+    font-size: 13px;
+    text-decoration: none;
+}
+/*-------------------------------------*/
+
+/*--header better food better mood--*/
+.header2
+{
+    background-image: url("../images/headerimage.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+
+    font-size: 40px;
+    padding-top: 210px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #8D99AE ;
+}
+/*-------------------------------------*/
+
+/*--MAIN gerechten--*/
+.bordertop
+{
+    border-top: #ddd solid 3px;
+    width: 100%;
+
+}
+
+.main
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-recipes2
+{
+    margin-top: 50px;
+
+
+}
+.main-recipes-grid
+{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+    margin-bottom: 5px;
+}
+
+.Main-Recipe-Item-Body
+{
+    color: #666;
+    line-height: 2;
+}
+.Main-Recipe-Item-Auteur
+{
+    border-right: #ebe8e8 2px solid;
+    float: left;
+    padding-right:10px;
+    font-style: italic;
+}
+
+.Main-Recipe-Item-Small-Title
+{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.timestamp
+{
+
+    color:#666;
+    padding-left: 10px;
+    float: left;
+}
+
+h1
+{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-underline: black;
+    text-decoration-thickness: 2px;
+    border-bottom: 2px solid black;
+}
+h2
+{
+    font-size: 150%;
+    text-underline: none;
+    color: black;
+}
+/*-------------------------------------*/
+
+/*--MEDIA QUERIES--*/
+@media screen and (max-width:770px )
+{
+    header
+    {
+        width: 600px;
+    }
+    .snelmenu
+    {
+        width: 600px;
+    }
+    .main
+    {
+        width: 600px;
+    }
+    .grid-for-you
+    {
+        display: grid;
+        grid-row-gap: 10px;
+
+        grid-template-columns: auto;
+    }
+    .main-for-you
+    {
+        width: 600px;
+    }
+
+}
+
+@media screen and (min-width:771px  ) and (max-width: 999px)
+{
+    header
+    {
+        width: 750px;
+    }
+    .snelmenu
+    {
+        width: 750px;
+    }
+    .main
+    {
+        width:750px ;
+    }
+    .grid-for-you
+    {
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto;
+    }
+
+    .main-for-you
+    {
+        width: 750px;
+    }
+}
+@media screen and (min-width:1000px  )
+{
+    header
+    {
+        width: 998px;
+    }
+    .snelmenu
+    {
+        width: 998px;
+    }
+    .main
+    {
+        width: 998px;
+    }
+    .grid-for-you
+    {
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-template-columns: auto auto auto;
+    }
+    .main-for-you
+    {
+        width: 998px;
+    }
+}
+@media screen and (min-width:800px )
+{
+    .header2
+    {
+        font-size: 5em;
+    }
+}
+/*-------------------------------------*/
+
+/*-- ?? --*/
+.artikel1
+{
+    margin-right: 1.5em;
+    padding-top: 1em;
+}
+/*-------------------------------------*/
+
+
+
+
+
+/*--fotocollage--*/
+.main-for-you
+{
+    margin: auto;
+}
+/*-------------------------------------*/
+
+/*--footer--*/
+#left{
+    text-align: right;
+    float: left;
+    width:50%;
+    padding: 20px;
+}
+#right{
+    text-align: left;
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.footer
+{
+    width:100%;
+    line-height: 2em;
+
+}
+/*-------------------------------------*/
+
+
+
+
+
+
+
