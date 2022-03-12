@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Demonstratie slider</title>
+	<link rel="stylesheet" href="styles/styles.css"/>
+</head> 
+<body> 
+<section>
+	<p>Open het console venster, versleep daarna de slider hieronder en kijk welke berichten er komen</p>
+	<input type="range" class="slider" value="50" min="0" max="100" />
+</section>
+<section>
+<p>Een gekleurd blokje :</p>
+<div class="colorDemo" />
+</section>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body> 
+</html>
+
+/*opdracht 2:
+
+	Waar wordt de event listener gekoppeld aan de slider?
+
+
+	Waarom moeten we die op twee soorten events koppelen?
+		we moeten zowel op het input als het change event reageren
+
+	In de CSS file wordt nergens een rode kleur opgegeven, waar wordt dan wel de rode kleur van
+	het blokje ingesteld?
+		colorDemos[0].style.backgroundColor="red";
+
+	Waarom schrijven we telkens sliders[0] en colorDemos[0] en niet gewoon sliders of
+	colorDemos?
+		omdat het lijsten met waarden zijn

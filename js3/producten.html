@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/producten.css">
+    <title>Opdracht producten</title>
+
+</head>
+<body>
+<table>
+    <tr>
+        <td>PRODUCTEN</td>
+        <td>PRIJS</td>
+        <td>AANTAL</td>
+        <td>BTW</td>
+        <td>SUBTOTAAL</td>
+    </tr>
+    <tr>
+        <td>Product 1</td>
+        <td class="prijs">10.00 EUR</td>
+        <td ><input class="aantal" type="number" value="0"></td>
+        <td class="btw">6%</td>
+        <td class="totaal">0.00 EUR</td>
+    </tr>
+    <tr>
+        <td>Product 2</td>
+        <td class="prijs">15.00 EUR</td>
+        <td ><input class="aantal" type="number" value="0"></td>
+        <td class="btw">21%</td>
+        <td class="totaal">0.00 EUR</td>
+    </tr>
+    <tr>
+        <td>Product 3</td>
+        <td class="prijs">12.20 EUR</td>
+        <td ><input  class="aantal" type="number" value="0"></td>
+        <td class="btw">21%</td>
+        <td class="totaal">0.00 EUR</td>
+    </tr>
+    <tr>
+        <td colspan="4">Totaal</td>
+        <td id="eindtotaal">0.00 EUR</td>
+    </tr>
+</table>
+<button>Bereken</button>
+<script src="scripts/producten.js"></script>
+</body>
+</html>
