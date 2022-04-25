@@ -33,11 +33,14 @@ const klik = (event) => {
 }
 
 const verplaats = () => {
+    clearInterval(timeoutId);
+
     let img = document.getElementsByTagName("img")[0];
     img.style.top = Math.random() * 752 + "px";
     img.style.left = Math.random() * 552 + "px";
     img.src = global.IMAGE_PATH_PREFIX + Math.round(Math.random() * 4) + global.IMAGE_PATH_SUFFIX;
 
+    timeoutId = setInterval(verplaats, 3000);
 }
 
 
