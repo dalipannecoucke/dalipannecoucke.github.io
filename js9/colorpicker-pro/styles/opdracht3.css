@@ -1,0 +1,30 @@
+#colorPicker{
+
+    width: 420px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 200px 100px 150px;
+}
+.vierkant{
+    grid-row-start: 0;
+    grid-column-start: 3;
+    width: 100px;
+    height: 100px;
+}
+.values{
+    grid-column-start: 2;
+}
+
+.sliders ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+#save{
+    margin: 5px;
+}
+.opgeslaanKleur{
+    margin: 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

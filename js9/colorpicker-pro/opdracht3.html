@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Colorpicker</title>
+    <link type="text/css" href="styles/opdracht3.css" rel="stylesheet">
+</head>
+<body>
+<div id="colorPicker">
+    <div class="sliders">
+        <ul>
+            <li>
+                <input type="range" class="slider" value="50" min="0" max="255">
+            </li>
+            <li>
+                <input type="range" class="slider" value="50" min="0" max="255">
+            </li>
+            <li>
+                <input type="range" class="slider" value="50" min="0" max="255">
+            </li>
+        </ul>
+    </div>
+
+    <div class="values">
+        <p id="red">rood 50</p>
+        <p id="green">groen 50</p>
+        <p id="blue">blauw 50</p>
+    </div>
+
+    <div class="vierkant" id="vierkantje"></div>
+
+    <input type="button" value="opslaan" id="save">
+    <input type="button" value="verwijderen" id="deleteAll">
+</div>
+<div class="opgeslaanKleuren">
+
+</div>
+
+<script type="text/javascript" charset="utf-8" src="scripts/opdracht3.js"></script>
+</body>
+</html>
